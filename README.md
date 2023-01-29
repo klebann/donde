@@ -1,20 +1,23 @@
-# Custom PHP Framework
+# Donde
 
-This framework was created to help you look for features that you need to
-create your own custom framework. **DO NOT use it for production**.
-Use Symfony Framework or Laravel instead.
+Donde to aplikacja webowa, której głównym celem jest ułatwienie lokalizowania pracowników zadanego wydziału ZUT o określonej porze dnia. Pobocznym celem jest również umożliwienie lokalizowania pomieszczeń w poszczególnych budynkach oraz przedstawienie danych adresowych poszczególnych budynków.
 
-## Features
+Aplikacja Donde jest prosta i łatwa w obsłudze, dzięki czemu każdy może łatwo znaleźć informacje, których potrzebuje. Interfejs jest przejrzysty i intuicyjny, a dane są prezentowane w czytelnej formie.
 
-- Front controller
-- ORM
-- Autoloading
-- MVC architecture
+## Funkcjonalności
 
-## Usage
+* Wyszukiwanie pracowników zadanego wydziału ZUT o określonej porze dnia
+* Wyszukiwanie pomieszczeń w poszczególnych budynkach
+* Wyświetlanie danych adresowych poszczególnych budynków
 
-1. Copy `config/config.dist.php` to `config/config.php` and update your settings.
-2. Compile LESS styles into minified CSS: 
-```
-lessc $ProjectFileDir$\public\assets\src\less\style.less $ProjectFileDir$\public\assets\dist\style.min.css --clean-css --source-map
-```
+## Wymagania 
+
+Aby skorzystać z aplikacji Donde, wymagany jest dostęp do internetu i przeglądarka internetowa z włączoną obsługą JavaScript.
+
+## Instalacja
+
+Aplikacja Donde jest dostępna online, nie wymaga instalacji i jest dostępna na stronie internetowej.
+
+## Kontakt
+
+Jeśli masz jakiekolwiek pytania lub sugestie dotyczące aplikacji Donde, skontaktuj się z nami poprzez formularz kontaktowy na naszej stronie internetowej.
